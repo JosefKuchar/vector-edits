@@ -5,6 +5,8 @@ This repository contains research code for generating the VectorEdits dataset an
 - [Hugging Face Dataset](https://huggingface.co/datasets/mikronai/VectorEdits)
 - [Paper](https://arxiv.org/abs/2506.15903)
 
+![Example edit pairs from the VectorEdits dataset](assets/example_pairs.png)
+
 ## Repository Scripts
 
 - `cluster.py` - finds visually similar SVG pairs inside collections (using CLIP embeddings) and saves candidate edit pairs.
